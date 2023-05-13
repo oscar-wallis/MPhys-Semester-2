@@ -1,0 +1,228 @@
+BiTeI
+Testing on IBM Quito, Trivial = 0, Topological = 1:
+Date and time = 09/05/2023 11:00:40 -- 1110
+Target: 1
+Network output: tensor([[-0.0047,  1.6062]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 11:02:44 -- 0001
+Target: 0
+Network output: tensor([[ 2.0096, -0.0076]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 11:03:18 -- 0001 
+Target: 0
+Network output: tensor([[ 2.2957, -0.0097]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 11:03:53 -- 0001
+Target: 0
+Network output: tensor([[ 2.1867, -0.0088]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 11:04:37 -- 1110
+Target: 1
+Network output: tensor([[-0.0101,  2.1046]], device='cuda:0')
+Network predicted correct
+
+Testing on IBM Quito, Trivial = 0, Topological = 1:
+Date and time = 09/05/2023 18:52:49 -- 0011 0111
+Target: 1
+Network output: tensor([[-0.0040,  2.1985]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 18:54:34 -- 1000 1100
+Target: 0
+Network output: tensor([[ 2.1548, -0.0068]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 18:55:18 -- 0011 0111
+Target: 1
+Network output: tensor([[-1.5885e-03,  1.8911e+00]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 18:56:13 -- 1000 1100
+Target: 0
+Network output: tensor([[ 2.1283, -0.0072]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 18:57:48 -- 0011 0111
+Target: 1
+Network output: tensor([[0.0616, 1.6352]], device='cuda:0')
+Network predicted correct
+ 
+Testing on IBM Quito, Trivial = 0, Topological = 1:
+Date and time = 09/05/2023 19:51:47 -- 0001
+Target: 0
+Network output: tensor([[ 1.6590e+00, -2.4564e-04]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 19:52:42 -- 0001
+Target: 0
+Network output: tensor([[ 1.5606e+00, -1.1622e-03]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 19:58:46 -- 0001, lots of noise
+Target: 0
+Network output: tensor([[1.0515, 0.2484]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 19:59:51 -- 1010? lots of noise
+Target: 1
+Network output: tensor([[0.0231, 0.8550]], device='cuda:0')
+Network predicted correct
+Date and time = 09/05/2023 20:03:16 -- 0001 
+Target: 0
+Network output: tensor([[ 1.3610, -0.0027]], device='cuda:0')
+Network predicted correct
+Running on ibm_quito number of test samples are 5, number of correct: 5
+ 
+Testing on IBM Quito, Trivial = 0, Topological = 1:
+Date and time = 10/05/2023 00:08:48 -- 1111 & 1110 significantly higher
+Target: 0
+Network output: tensor([[ 1.4026, -0.0037]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 00:37:55 -- 1110 high, 1111 higher
+Target: 0
+Network output: tensor([[1.2008, 0.1523]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 01:02:02 -- 1110 high, 1111 higher
+Target: 0
+Network output: tensor([[ 1.2567, -0.0038]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 01:08:17 -- 1000 1001 highest
+Target: 1
+Network output: tensor([[-0.0063,  1.7736]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 01:31:52 -- 1110 & 1111 higher
+Target: 0
+Network output: tensor([[ 1.7757, -0.0023]], device='cuda:0')
+Network predicted correct
+Running on ibm_quito number of test samples are 5, number of correct: 5
+ 
+Testing on IBM Quito, Trivial = 0, Topological = 1:
+Date and time = 10/05/2023 02:37:16 -- 0100 higher 
+Target: 0
+Network output: tensor([[-0.0012, -0.0023]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 02:40:03 -- 0011 high, but lots of noise
+Target: 0
+Network output: tensor([[-0.0012, -0.0073]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 03:15:11 -- 0010 high, high noise
+Target: 0
+Network output: tensor([[-0.0013, -0.0016]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 03:38:57 -- 1000 & 1010 highe
+Target: 1
+Network output: tensor([[-6.9698e-04,  1.2266e+00]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 03:45:32 - 1000 hiest
+Target: 1
+Network output: tensor([[-9.1970e-04,  1.4382e+00]], device='cuda:0')
+Network predicted correct
+Running on ibm_quito number of test samples are 5, number of correct: 5
+ 
+Testing on IBM Quito, Trivial = 0, Topological = 1:
+Date and time = 10/05/2023 04:41:43 -- 0100
+Target: 0
+Network output: tensor([[ 2.0568e+00, -1.5910e-03]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 04:50:28 -- 0010 
+Target: 0
+Network output: tensor([[ 1.5549e+00, -4.4614e-04]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 05:16:37 -- 0010
+Target: 0
+Network output: tensor([[ 1.2795e+00, -1.1872e-04]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 05:17:04 -- 0100
+Target: 0
+Network output: tensor([[ 1.6026e+00, -1.2821e-04]], device='cuda:0')
+Network predicted correct
+Date and time = 10/05/2023 05:17:49 -- 1111
+Target: 1
+Network output: tensor([[-0.0019,  1.6722]], device='cuda:0')
+Network predicted correct
+Running on ibm_quito number of test samples are 5, number of correct: 5
+
+MNIST
+ 
+Testing on IBM Quito, 0 = 0, 1 = 1
+Loss of trained network: 0.060248474547206755
+Date and time = 11/05/2023 00:51:22 -- 1011 and 1111
+Target: 1
+Network output: tensor([[0.4015, 2.0161]], device='cuda:0')
+Network predicted correct
+Date and time = 11/05/2023 01:16:28 -- 0001 and 0101
+Target: 0
+Network output: tensor([[1.7158, 0.3096]], device='cuda:0')
+Network predicted correct
+Date and time = 11/05/2023 03:10:53 -- 0001 0101
+Target: 0
+Network output: tensor([[1.7574, 0.2914]], device='cuda:0')
+Network predicted correct
+Date and time = 11/05/2023 03:31:08 -- 1011 1111
+Target: 1
+Network output: tensor([[0.5330, 2.1236]], device='cuda:0')
+Network predicted correct
+Date and time = 11/05/2023 03:32:32 -- 0001 0101
+Target: 0
+Network output: tensor([[1.6746, 0.1637]], device='cuda:0')
+Network predicted correct
+Running on ibm_quito number of test samples are 5, number of correct: 5
+ 
+Testing on IBM Quito, 0 = 0, 1 = 1
+Loss of trained network: 0.036093437698001815
+Date and time = 12/05/2023 01:17:41 -- 1011
+Target: 0
+Network output: tensor([[1.8196, 0.2146]])
+Network predicted correct
+Date and time = 12/05/2023 01:51:47 -- 0101
+Target: 1
+Network output: tensor([[0.3003, 1.8973]])
+Network predicted correct
+Date and time = 12/05/2023 02:23:20 -- 0101
+Target: 1
+Network output: tensor([[0.0498, 1.9525]])
+Network predicted correct
+Date and time = 12/05/2023 02:52:56 -- 0101
+Target: 1
+Network output: tensor([[0.0030, 2.0860]])
+Network predicted correct
+Date and time = 12/05/2023 02:53:10 - 1011
+Target: 0
+Network output: tensor([[2.0360, 0.0434]])
+Network predicted correct
+Running on ibm_quito number of test samples are 5, number of correct: 5
+
+ 
+ 
+ Running the selected data to test top triv and close transition 
+Testing on IBM Quito, 0 = Trivial, 1 = Topological. 
+Loss of trained network: 0.05090104751102626
+Date and time = 13/05/2023 16:33:45
+Alpha value: 0.0
+Target: 0.0
+Network output: tensor([ 1.2990e+00, -1.2117e-03], device='cuda:0')
+Date and time = 13/05/2023 16:33:59
+Alpha value: 0.0
+Target: 0.0
+Network output: tensor([ 1.7580, -0.0019], device='cuda:0')
+Date and time = 13/05/2023 16:34:13
+Alpha value: 0.0
+Target: 0.0
+Network output: tensor([ 1.7898, -0.0022], device='cuda:0')
+Date and time = 13/05/2023 16:40:07
+Alpha value: 0.77
+Target: 1.0
+Network output: tensor([-1.1113e-03,  1.7916e+00], device='cuda:0')
+Date and time = 13/05/2023 16:42:22
+Alpha value: 0.77
+Target: 1.0
+Network output: tensor([-0.0020,  1.5058], device='cuda:0')
+Date and time = 13/05/2023 16:42:36
+Alpha value: 0.77
+Target: 1.0
+Network output: tensor([-8.8386e-04,  1.8303e+00], device='cuda:0')
+Date and time = 13/05/2023 16:42:50
+Alpha value: 0.885
+Target: 1.0
+Network output: tensor([-0.0040,  2.0244], device='cuda:0')
+Date and time = 13/05/2023 16:43:04
+Alpha value: 0.885
+Target: 1.0
+Network output: tensor([-0.0035,  2.1090], device='cuda:0')
+Date and time = 13/05/2023 16:43:18
+Alpha value: 0.885
+Target: 1.0
+Network output: tensor([-0.0029,  1.7698], device='cuda:0')
